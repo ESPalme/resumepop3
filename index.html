@@ -1,90 +1,96 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="html, css, tags">
-    <meta name="description" content="Резюме начинающего разработчика">
-    <title>Резюме Палмэ Елены</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <img src="https://sun9-63.userapi.com/impg/7kW_F-j3Yab-BrmQ-sCG2CWPnJkDQ-yG5TMS-g/WyCQInFOjUY.jpg?size=810x1080&quality=95&sign=a4f9ea367662f3df8966f0c146aa1631&type=album" width="200" alt="Моя фотография">
+    <div class="container">
+     
+        <div class="info-text">
+            <div class="resume"> 
+                <p>Моя визитка</p> 
+                <p>Меня зовут Палмэ Елена. Мне 22 года. Я работаю в компании Ozon на должности Специалист информацинной поддержки.</p>
+                <div class="card bg-yellow">
+                    <b>Контакты</b>
+                    <a href="https://vk.com/elenpalme">Вконтакте</a>
+                    <a href="https://t.me/palllme">Телеграмм</a>
+                  </div>
+            </div>
+            <div><img src="image 1.png" alt="Моя фотография" class="avatar"></div>
+        </div>
     
-    <h1>Палмэ Елена</h1>
-
-    <p>Мне 22 года. Я работаю в компании <em> Ozon</em> на должности <strong>специалист информационной поддержки</strong> уже 2 года.</p>
-    <p>Я хочу изучать веб-разработку</p>
-    <hr>
-    <h2>Мои социальные сети</h2>
-
-    <b> <a href="https://vk.com/elenpalme" target="_blank">Вконтакте</a>, <a href="https://vk.com/elenpalme" target="_blank">Telegram</a></b>
-
-        <hr>
-        <h2>Мои хобби:</h2>
-        <ul>
-            <li>Рисование</li>
-            <li>Веб-разработка</li>
-            <li>Рукоделие</li>
-            <li>Аниме</li>
-        </ul>
-
-        <table>
-         <tr>
-            <thead>
-            <th>Название работы</th>
-            <th>Должность</th>
-            <th>Период работы</th>
-            </thead>
-         </tr>
-        </table>
-        
-        <table>
-         <tr>
-            <td>Первый бит</td>
-            <td>Менеджер по соправождению</td>
-            <td>2022-2023</td>
-            </tr>
-        </table>
-
-        <table>
-         <tr>
-            <td>Санлайт</td>
-            <td>Товаровед</td>
-            <td>2023-2024</td>
-        </tr>
-        </table>
-
-        <table>
-        <tr>
-            <td>Озон</td>
-            <td>Информ</td>
-            <td>2024- по н.вр</td>
-        </tr>
-        </table>
-    <hr>
-
-    <form>
-        <div>
-            <label for="text">Ваше имя:</label>
-            <input type="text" placeholder="Введите имя">
+        <div class="card bg-red">
+            <table class="table">
+                <caption>Опыт работы</caption>
+                <thead>
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Годы работы</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Первый бит</td>
+                        <td>Менеджер по сопровождению</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td>Sunlight</td>
+                        <td>Товаровед</td>
+                        <td>2023-2024</td>
+                    </tr>
+                    <tr>
+                        <td>Ozon</td>
+                        <td>Специалист информационной поддержки</td>
+                        <td>2024-по н.вр.</td>
+                    </tr>
+                </tbody>
+                    
+            </table>
         </div>
-    </form>
-
-    <form>
-        <div>
-            <label for="email">Ваш email:</label>
-            <input type="email" placeholder="Введите email">
+    
+        <div class="hobby">
+            <div class="list">
+            <h3>Мои хобби</h3>
+            <ul>
+                <li>Веб-разработка</li>
+                <li>Рисование</li>
+                <li>Рукоделие</li>
+                <li>Тру-крайм</li>
+            </ul>
+            </div>
+            
         </div>
-    </form>
 
-    <form>
-        <div>
-            <label for="massage">Вашу сообщение:</label>
-            <textarea id="massage" placeholder="Введите сообщение"></textarea>
+        <div class="forma">
+            
+            <form action="/" class="form">
+                <div><img src="Connected world-pana 1.png" alt="Картинка" class="img"></div>
+                <div class="form-row">
+                  <h2>Связаться со мной</h2>
+                  <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                  </div>
+          
+                  <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+                  </div>
+                  <input class="btn" type="submit" value="Отправить">
+                </div>
+              </form>
+              
         </div>
-    </form>
-
-    <button type="submit">Отправить</button>
-
+    
 </body>
 </html>
